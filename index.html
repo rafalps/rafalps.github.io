@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        body {
+            height: auto;
+            width: auto;
+            background-color: black;
+            margin: 0;
+        }
+        .page-header {
+            height: auto;
+            width: auto;
+            padding: 10px;
+            display: flex;
+        }
+        .page-footer {
+            height: auto;
+            width: auto;
+        }
+        .page-content {
+            height: auto;
+            width: auto;
+            background-color: rgb(50, 50, 50);
+        }
+        .group-button {
+            text-align: center;
+            width: 70%;
+        }
+        .btn-header {
+            height: 100%;
+            width: 80px;
+            border-radius: 0;
+            border: 1px solid grey;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+        }
+        .btn-header:hover {
+            background-color: rgb(33, 45, 84);
+        }
+        .logo-header {
+            width: 15%;
+        }
+        .image-header {
+            width: 100px;
+            height: 50px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        .btn-option-user {
+            width: 15%;
+        }
+        .close {
+            float: right;
+        }
+        .image-back {
+            text-align: center;
+        }
+        .image-back img {
+            box-shadow: 0 0 1em blue;
+            width: 100%;
+        }
+    </style>
+    <script>
+        const test = function(e) {
+            console.log(e)
+        }
+    </script>
+</head>
+<body>
+    <div class="page-header">
+        <div class="logo-header">
+            <img class="image-header" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZwns_VC8eIlXbnDK23XX94o-Im_FwpKhd1A&usqp=CAU" alt="">
+        </div>
+        <div class="group-button">
+            <button type="button" class="btn-header" onclick="test(this)">T1</button>
+            <button type="button" class="btn-header">T2</button>
+            <button type="button" class="btn-header">T3</button>
+        </div>
+        <div class="btn-option-user">
+            <button class="btn-header close">USER</button>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="image-back">
+            <img src="https://recantododragao.com.br/wp-content/uploads/2013/05/bits-bytes1.jpg" alt="">
+        </div>
+        <div class="row-center column-center">
+            <div class="card">
+                <div class="login-form">
+                    <div class="title"></div>
+                    <div class="body"></div>
+                    <div class="footer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer"></div>
+</body>
+</html>
