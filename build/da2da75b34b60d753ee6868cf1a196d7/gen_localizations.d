@@ -1,0 +1,1 @@
+ /Users/eagle.track/mvvm_test/mvvm_test/.dart_tool/flutter_gen/gen_l10n/app_localizations_en.dart /Users/eagle.track/mvvm_test/mvvm_test/.dart_tool/flutter_gen/gen_l10n/app_localizations.dart:  /Users/eagle.track/mvvm_test/mvvm_test/l10n.yaml /Users/eagle.track/mvvm_test/mvvm_test/lib/src/localization/app_en.arb
